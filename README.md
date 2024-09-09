@@ -29,7 +29,7 @@
 ## Installation
 
 ```bash
-$ npm install
+$ npm install or npm install --legacy-peer-deps
 ```
 
 ## Running the app
@@ -41,21 +41,32 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
 ```
+## Edit .env According to the connection using Docker
 
 ## Test
 
-```bash
-# unit tests
-$ npm run test
+```Using Postman
+# createProfile
+$ http://localhost:3000/api/createProfile
 
-# e2e tests
-$ npm run test:e2e
+# getProfile
+$ http://localhost:3000/api/getProfile
 
-# test coverage
-$ npm run test:cov
+# updateProfile
+$ http://localhost:3000/api/updateProfile/id
+
+# Register
+$ http://localhost:3000/api/register
+
+# Login
+$ http://localhost:3000/api/login
+
+# sendMessages
+$ http://localhost:3000/api/sendMessage
+
+# viewMessages
+$ http://localhost:3000/api/viewMessages
 ```
 
 ## Support
@@ -64,7 +75,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Author - [Muflihun Azis](https://github.com/MuflihunAzis))
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
